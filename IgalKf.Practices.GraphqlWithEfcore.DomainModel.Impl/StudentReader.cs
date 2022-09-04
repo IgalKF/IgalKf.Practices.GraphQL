@@ -4,11 +4,11 @@ using System.Threading;
 using System.Threading.Tasks;
 using AutoMapper;
 using AutoMapper.QueryableExtensions;
-using Igalkf.Practices.GraphqlWithEfcore.EntityModel;
-using MediatR;
-using IgalKf.Practices.GraphqlWithEfcore.DomainModel.Cqrs;
 using IgalKf.Practices.GraphqlWithEfcore.DomainModel;
+using IgalKf.Practices.GraphqlWithEfcore.DomainModel.Cqrs;
+using Igalkf.Practices.GraphqlWithEfcore.EntityModel;
 using Igalkf.Practices.GraphqlWithEfcore.PersistenceModel.EntityFramework;
+using MediatR;
 
 /// <summary>
 /// InitialClass.

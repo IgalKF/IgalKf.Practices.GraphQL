@@ -20,10 +20,10 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <ProjectReference Include="..\IgalKf.Practices.GraphQL.DomainModel.Cqrs\IgalKf.Practices.GraphqlWithEfcore.DomainModel.Cqrs.csproj" />
-	  <ProjectReference Include="..\IgalKf.Practices.GraphQL.DomainModel\IgalKf.Practices.GraphqlWithEfcore.DomainModel.csproj" />
+	  <ProjectReference Include="..\IgalKf.Practices.GraphqlWithEfcore.DomainModel.Cqrs\IgalKf.Practices.GraphqlWithEfcore.DomainModel.Cqrs.csproj" />
+	  <ProjectReference Include="..\IgalKf.Practices.GraphqlWithEfcore.DomainModel\IgalKf.Practices.GraphqlWithEfcore.DomainModel.csproj" />
 	  <ProjectReference Include="..\Igalkf.Practices.GraphqlWithEfcore.EntityModel\Igalkf.Practices.GraphqlWithEfcore.EntityModel.csproj" />
-	  <ProjectReference Include="..\Igalkf.Practices.PersistenceModel.EntityFramework\Igalkf.Practices.GraphqlWithEfcore.PersistenceModel.EntityFramework.csproj" />
+	  <ProjectReference Include="..\Igalkf.Practices.GraphqlWithEfcore.PersistenceModel.EntityFramework\Igalkf.Practices.GraphqlWithEfcore.PersistenceModel.EntityFramework.csproj" />
 	</ItemGroup>
 	
 	<Target Name="del" AfterTargets="Build">

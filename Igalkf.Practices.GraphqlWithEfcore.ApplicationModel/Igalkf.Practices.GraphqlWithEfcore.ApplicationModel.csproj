@@ -28,9 +28,9 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <ProjectReference Include="..\IgalKf.Practices.GraphQL.DomainModel.Impl\IgalKf.Practices.GraphqlWithEfcore.DomainModel.Impl.csproj" />
+	  <ProjectReference Include="..\IgalKf.Practices.GraphqlWithEfcore.DomainModel.Impl\IgalKf.Practices.GraphqlWithEfcore.DomainModel.Impl.csproj" />
+	  <ProjectReference Include="..\Igalkf.Practices.GraphqlWithEfcore.PersistenceModel.EntityFramework\Igalkf.Practices.GraphqlWithEfcore.PersistenceModel.EntityFramework.csproj" />
 	  <ProjectReference Include="..\IgalKf.Practices.GraphqlWithEfcore.ServiceModel.Graphql\IgalKf.Practices.GraphqlWithEfcore.ServiceModel.Graphql.csproj" />
-	  <ProjectReference Include="..\Igalkf.Practices.PersistenceModel.EntityFramework\Igalkf.Practices.GraphqlWithEfcore.PersistenceModel.EntityFramework.csproj" />
 	</ItemGroup>
 	
 	<Target Name="del" AfterTargets="Build">

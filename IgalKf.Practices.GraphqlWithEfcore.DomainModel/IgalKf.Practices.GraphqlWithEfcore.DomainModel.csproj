@@ -19,7 +19,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <ProjectReference Include="..\Igalkf.Practices.PersistenceModel.EntityFramework\Igalkf.Practices.GraphqlWithEfcore.PersistenceModel.EntityFramework.csproj" />
+	  <ProjectReference Include="..\Igalkf.Practices.GraphqlWithEfcore.EntityModel\Igalkf.Practices.GraphqlWithEfcore.EntityModel.csproj" />
 	</ItemGroup>
 	
 	<Target Name="del" AfterTargets="Build">

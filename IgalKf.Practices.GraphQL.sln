@@ -3,21 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32616.157
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IgalKf.Practices.GraphqlWithEfcore.GraphqlWebApplication", "IgalKf.Practices.GraphQL\IgalKf.Practices.GraphqlWithEfcore.GraphqlWebApplication.csproj", "{B32C024A-3CEC-4B08-8268-2CC7C5FB0BFB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Igalkf.Practices.GraphqlWithEfcore.EntityModel", "Igalkf.Practices.GraphqlWithEfcore.EntityModel\Igalkf.Practices.GraphqlWithEfcore.EntityModel.csproj", "{307E807A-AB3F-4F25-A1B9-CAFEF3F0C4CE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Igalkf.Practices.GraphqlWithEfcore.EntityModel", "Igalkf.Practices.GraphqlWithEfcore.EntityModel\Igalkf.Practices.GraphqlWithEfcore.EntityModel.csproj", "{307E807A-AB3F-4F25-A1B9-CAFEF3F0C4CE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Igalkf.Practices.GraphqlWithEfcore.PersistenceModel.EntityFramework", "Igalkf.Practices.GraphqlWithEfcore.PersistenceModel.EntityFramework\Igalkf.Practices.GraphqlWithEfcore.PersistenceModel.EntityFramework.csproj", "{61D7A3F1-7D60-40AA-831C-39B2DC4B45F2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Igalkf.Practices.GraphqlWithEfcore.PersistenceModel.EntityFramework", "Igalkf.Practices.PersistenceModel.EntityFramework\Igalkf.Practices.GraphqlWithEfcore.PersistenceModel.EntityFramework.csproj", "{61D7A3F1-7D60-40AA-831C-39B2DC4B45F2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Igalkf.Practices.GraphqlWithEfcore.ApplicationModel", "Igalkf.Practices.GraphqlWithEfcore.ApplicationModel\Igalkf.Practices.GraphqlWithEfcore.ApplicationModel.csproj", "{8F0BF89A-422F-4156-8070-A716BF33102E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Igalkf.Practices.GraphqlWithEfcore.ApplicationModel", "Igalkf.Practices.GraphqlWithEfcore.ApplicationModel\Igalkf.Practices.GraphqlWithEfcore.ApplicationModel.csproj", "{8F0BF89A-422F-4156-8070-A716BF33102E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IgalKf.Practices.GraphqlWithEfcore.ServiceModel.Graphql", "IgalKf.Practices.GraphqlWithEfcore.ServiceModel.Graphql\IgalKf.Practices.GraphqlWithEfcore.ServiceModel.Graphql.csproj", "{364295D2-2EDE-43F3-BB55-72C9FCC75014}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IgalKf.Practices.GraphqlWithEfcore.ServiceModel.Graphql", "IgalKf.Practices.GraphqlWithEfcore.ServiceModel.Graphql\IgalKf.Practices.GraphqlWithEfcore.ServiceModel.Graphql.csproj", "{364295D2-2EDE-43F3-BB55-72C9FCC75014}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IgalKf.Practices.GraphqlWithEfcore.DomainModel.Cqrs", "IgalKf.Practices.GraphqlWithEfcore.DomainModel.Cqrs\IgalKf.Practices.GraphqlWithEfcore.DomainModel.Cqrs.csproj", "{AA45C3C4-E2FF-4854-9763-641E68841A13}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IgalKf.Practices.GraphqlWithEfcore.DomainModel", "IgalKf.Practices.GraphQL.DomainModel\IgalKf.Practices.GraphqlWithEfcore.DomainModel.csproj", "{F184C047-D7D0-4351-85E7-2EE4A61AC196}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IgalKf.Practices.GraphqlWithEfcore.DomainModel.Impl", "IgalKf.Practices.GraphqlWithEfcore.DomainModel.Impl\IgalKf.Practices.GraphqlWithEfcore.DomainModel.Impl.csproj", "{1AAE3406-1A3D-4FD7-A8EB-C40077F1A624}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IgalKf.Practices.GraphqlWithEfcore.DomainModel.Cqrs", "IgalKf.Practices.GraphQL.DomainModel.Cqrs\IgalKf.Practices.GraphqlWithEfcore.DomainModel.Cqrs.csproj", "{AA45C3C4-E2FF-4854-9763-641E68841A13}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IgalKf.Practices.GraphqlWithEfcore.DomainModel", "IgalKf.Practices.GraphqlWithEfcore.DomainModel\IgalKf.Practices.GraphqlWithEfcore.DomainModel.csproj", "{A4901A16-4B58-49C3-B4EB-EFB2BE9EB412}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IgalKf.Practices.GraphqlWithEfcore.DomainModel.Impl", "IgalKf.Practices.GraphQL.DomainModel.Impl\IgalKf.Practices.GraphqlWithEfcore.DomainModel.Impl.csproj", "{1AAE3406-1A3D-4FD7-A8EB-C40077F1A624}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IgalKf.Practices.GraphqlWithEfcore.GraphqlWebApplication", "IgalKf.Practices.GraphqlWithEfcore\IgalKf.Practices.GraphqlWithEfcore.GraphqlWebApplication.csproj", "{301C46F7-A753-4E1B-91BA-C823CAD9D852}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,10 +25,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{B32C024A-3CEC-4B08-8268-2CC7C5FB0BFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B32C024A-3CEC-4B08-8268-2CC7C5FB0BFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B32C024A-3CEC-4B08-8268-2CC7C5FB0BFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B32C024A-3CEC-4B08-8268-2CC7C5FB0BFB}.Release|Any CPU.Build.0 = Release|Any CPU
 		{307E807A-AB3F-4F25-A1B9-CAFEF3F0C4CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{307E807A-AB3F-4F25-A1B9-CAFEF3F0C4CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{307E807A-AB3F-4F25-A1B9-CAFEF3F0C4CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -45,10 +41,6 @@ Global
 		{364295D2-2EDE-43F3-BB55-72C9FCC75014}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{364295D2-2EDE-43F3-BB55-72C9FCC75014}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{364295D2-2EDE-43F3-BB55-72C9FCC75014}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F184C047-D7D0-4351-85E7-2EE4A61AC196}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F184C047-D7D0-4351-85E7-2EE4A61AC196}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F184C047-D7D0-4351-85E7-2EE4A61AC196}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F184C047-D7D0-4351-85E7-2EE4A61AC196}.Release|Any CPU.Build.0 = Release|Any CPU
 		{AA45C3C4-E2FF-4854-9763-641E68841A13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{AA45C3C4-E2FF-4854-9763-641E68841A13}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AA45C3C4-E2FF-4854-9763-641E68841A13}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -57,6 +49,14 @@ Global
 		{1AAE3406-1A3D-4FD7-A8EB-C40077F1A624}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1AAE3406-1A3D-4FD7-A8EB-C40077F1A624}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1AAE3406-1A3D-4FD7-A8EB-C40077F1A624}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4901A16-4B58-49C3-B4EB-EFB2BE9EB412}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4901A16-4B58-49C3-B4EB-EFB2BE9EB412}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4901A16-4B58-49C3-B4EB-EFB2BE9EB412}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4901A16-4B58-49C3-B4EB-EFB2BE9EB412}.Release|Any CPU.Build.0 = Release|Any CPU
+		{301C46F7-A753-4E1B-91BA-C823CAD9D852}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{301C46F7-A753-4E1B-91BA-C823CAD9D852}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{301C46F7-A753-4E1B-91BA-C823CAD9D852}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{301C46F7-A753-4E1B-91BA-C823CAD9D852}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

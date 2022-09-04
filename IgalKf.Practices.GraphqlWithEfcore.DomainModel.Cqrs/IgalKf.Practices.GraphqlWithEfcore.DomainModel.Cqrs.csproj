@@ -18,7 +18,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <ProjectReference Include="..\IgalKf.Practices.GraphQL.DomainModel\IgalKf.Practices.GraphqlWithEfcore.DomainModel.csproj" />
+	  <ProjectReference Include="..\IgalKf.Practices.GraphqlWithEfcore.DomainModel\IgalKf.Practices.GraphqlWithEfcore.DomainModel.csproj" />
 	  <ProjectReference Include="..\Igalkf.Practices.GraphqlWithEfcore.EntityModel\Igalkf.Practices.GraphqlWithEfcore.EntityModel.csproj" />
 	</ItemGroup>
 	
