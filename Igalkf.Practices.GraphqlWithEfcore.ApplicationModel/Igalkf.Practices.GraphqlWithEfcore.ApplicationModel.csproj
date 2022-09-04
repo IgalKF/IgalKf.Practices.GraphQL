@@ -1,0 +1,39 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<DocumentationFile>../Readme/$(AssemblyName).xml</DocumentationFile>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<FrameworkReference Include="Microsoft.AspNetCore.App" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.8" />
+		<PackageReference Include="HotChocolate.AspNetCore" Version="12.12.1" />
+		<PackageReference Include="HotChocolate.Types" Version="12.12.1" />
+		<PackageReference Include="HotChocolate.Types.Filters" Version="12.12.1" />
+		<PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.2.0" />
+		<PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="6.0.0" />
+		<PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="10.0.1" />
+		<PackageReference Include="StyleCop.Analyzers" Version="1.2.0-beta.435">
+			<PrivateAssets>all</PrivateAssets>
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+		<PackageReference Include="Vsxmd" Version="1.4.5">
+			<PrivateAssets>all</PrivateAssets>
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\IgalKf.Practices.GraphQL.DomainModel.Impl\IgalKf.Practices.GraphqlWithEfcore.DomainModel.Impl.csproj" />
+	  <ProjectReference Include="..\IgalKf.Practices.GraphqlWithEfcore.ServiceModel.Graphql\IgalKf.Practices.GraphqlWithEfcore.ServiceModel.Graphql.csproj" />
+	  <ProjectReference Include="..\Igalkf.Practices.PersistenceModel.EntityFramework\Igalkf.Practices.GraphqlWithEfcore.PersistenceModel.EntityFramework.csproj" />
+	</ItemGroup>
+	
+	<Target Name="del" AfterTargets="Build">
+		<Delete Files="../Readme/$(AssemblyName).xml" />
+	</Target>
+</Project>
